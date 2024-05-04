@@ -1,0 +1,9 @@
+[package]
+name = "tatra"
+version = "0.1.0"
+edition = "2021"
+authors = ["ur-fault"]
+description = "Tool for simple ANSI in scripts in human readable way"
+
+[dependencies]
+yansi = { version = "1.0.1", features = ["is-terminal"] }
